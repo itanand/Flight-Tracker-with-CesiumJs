@@ -5,9 +5,9 @@
  
  You’ll learn how to:
 
-             Set up and deploy your Cesium app on the web
-             Add base layers of global 3D buildings, terrain, and imagery
-             Accurately visualize an airplane from a list of positions over time
+             1. Set up and deploy your Cesium app on the web
+             2. Add base layers of global 3D buildings, terrain, and imagery
+             3. Accurately visualize an airplane from a list of positions over time
 
 We’re going to get global satellite imagery, 3D buildings, and terrain from Cesium ion, an open platform for streaming and hosting 3D content.
 
@@ -18,10 +18,9 @@ We’re going to get global satellite imagery, 3D buildings, and terrain from Ce
 
 Once you’re logged in:
 
-      <ol>
-        <li>Go to your Access Tokens tab.</li>
-        <li>Note the copy button next to the default token. We’ll use this token in the next step.</li>
-      </ol>
+         1. Go to your Access Tokens tab.
+         2. Note the copy button next to the default token. We’ll use this token in the next step.
+      
 
 
 <img src="https://cesium.com/docs/images/tutorials/flight-tracker/path.jpeg">
@@ -29,7 +28,7 @@ Once you’re logged in:
 <h2>Step 1. Set up your Cesium app</h2>
 We’re going to create our app using CesiumJS, an open source JavaScript engine. We’ll use Glitch, an online IDE, to host our app.
 
-    <ol><li> Click here to create a new Glitch project using the basic template we put together.</li>
-    <li>Click on index.html in the left-side panel to see the app’s code.</li>
-    <li>Replace your_token_here with your access token from your tokens page.</li>
-     <li>Run the app by clicking Show in the top and select Next to The Code.</li></ol>
+     1. Click here to create a new Glitch project using the basic template we put together.
+     2. Click on index.html in the left-side panel to see the app’s code.
+     3. Replace your_token_here with your access token from your tokens page.
+     4. Run the app by clicking Show in the top and select Next to The Code.
